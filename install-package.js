@@ -12,8 +12,8 @@ const installDirectory = process.argv[2] || 'src/components';
 
 createDirectoryIfNotExists(installDirectory);
 
-const sourceFolder = path.join(__dirname, 'src/components/discord-messages-ui-beta/');
-const destinationFolder = path.join(installDirectory, 'discord-messages-ui-beta');
+const sourceFolder = path.join(__dirname, 'src/components/badge-ui/');
+const destinationFolder = path.join(installDirectory, 'badge-ui');
 
 try {
     fse.copySync(sourceFolder, destinationFolder, { overwrite: true });
