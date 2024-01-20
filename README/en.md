@@ -8,8 +8,8 @@ The Badge component is a React component that allows you to easily create badges
 
 ## Language
 
-- [English](./README/en.md)
-- [日本語](./README/ja.md)
+- [English](./en.md)
+- [日本語](./ja.md)
 
 ## Package Information
 
@@ -68,7 +68,7 @@ node ./node_modules/badge-ui/install-package.js
 
 # UI
 
-<img src="./public/assets/img/badge.png"/>
+<img src="../public/assets/img/badge.png"/>
 
 # Properties
 
@@ -118,4 +118,4 @@ Now you can effectively use the Badge component. If you have any additional info
 [npm-downloads-image]: https://img.shields.io/npm/dm/badge-ui.svg?style=flat
 [npm-downloads-url]: https://npmcharts.com/compare/badge-ui?minimal=true
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
-[license-url]: ./LICENSE.txt
+[license-url]: ../LICENSE.txt
