@@ -1,6 +1,6 @@
 {
   "name": "badge-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Fun117",
   "description": "The Badge component is a React component that allows you to easily create badges with different styles. ",
   "main": "src/components/badge-ui/ui/badge-ui.tsx",

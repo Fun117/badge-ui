@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import '../css/badge.css'
+import '../css/badge.css';
 
-const Badge = ({ mode, children }) => {
+const Badge = ({ mode, children }: { mode: string, children: React.ReactNode }) => {
     const badgeAllClass = `select-none pointer-events-none text-xs font-medium me-2 px-2.5 py-0.5 rounded-full`;
     const bageDefault = `bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300`;
     const bageDark = `bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300`;
@@ -15,39 +14,34 @@ const Badge = ({ mode, children }) => {
 
     var badgeClass = `${badgeAllClass} ${bageDefault}`;
 
-    if(mode){
-        if(mode===`Dark` || mode===`dark`){
+    if (mode) {
+        if (mode === `Dark` || mode === `dark`) {
             badgeClass = `${badgeAllClass} ${bageDark}`;
-        };
-        if(mode===`Red` || mode===`red`){
+        }
+        if (mode === `Red` || mode === `red`) {
             badgeClass = `${badgeAllClass} ${bageRed}`;
-        };
-        if(mode===`Green` || mode===`green`){
+        }
+        if (mode === `Green` || mode === `green`) {
             badgeClass = `${badgeAllClass} ${bageGreen}`;
-        };
-        if(mode===`Yellow` || mode===`yellow`){
+        }
+        if (mode === `Yellow` || mode === `yellow`) {
             badgeClass = `${badgeAllClass} ${bageYellow}`;
-        };
-        if(mode===`Indigo` || mode===`indigo`){
+        }
+        if (mode === `Indigo` || mode === `indigo`) {
             badgeClass = `${badgeAllClass} ${bageIndigo}`;
-        };
-        if(mode===`Purple` || mode===`purple`){
+        }
+        if (mode === `Purple` || mode === `purple`) {
             badgeClass = `${badgeAllClass} ${bagePurple}`;
-        };
-        if(mode===`Pink` || mode===`pink`){
+        }
+        if (mode === `Pink` || mode === `pink`) {
             badgeClass = `${badgeAllClass} ${bagePink}`;
-        };
-    };
+        }
+    }
     return (
         <span className={badgeClass}>
             {children}
         </span>
     );
-};
-
-Badge.propTypes = {
-    mode: PropTypes.oneOf(['','default','dark','red','green','yellow','indigo','purple','pink']).isRequired,
-    children: PropTypes.node.isRequired,
 };
 
 export default Badge;

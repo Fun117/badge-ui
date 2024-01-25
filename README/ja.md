@@ -63,6 +63,8 @@ node ./node_modules/badge-ui/install-package.js
 
 -  0.0.1
     - Badge表示用モジュールを追加
+-  0.0.2
+    - エラー問題を修正
 
 <hr/>
 

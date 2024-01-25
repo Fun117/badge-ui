@@ -63,6 +63,8 @@ node ./node_modules/badge-ui/install-package.js
 
 -  0.0.1
     - Added module for displaying badges
+-  0.0.2
+    - Fixed error issues
 
 <hr/>
 
