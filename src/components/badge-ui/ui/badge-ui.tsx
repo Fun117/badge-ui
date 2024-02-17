@@ -18,6 +18,9 @@ const Badge = ({ mode, children }: { mode: string, children: React.ReactNode }) 
         if (mode === `Dark` || mode === `dark`) {
             badgeClass = `${badgeAllClass} ${bageDark}`;
         }
+        if (mode === `Blue` || mode === `blue`) {
+            badgeClass = `${badgeAllClass} ${bageDefault}`;
+        }
         if (mode === `Red` || mode === `red`) {
             badgeClass = `${badgeAllClass} ${bageRed}`;
         }

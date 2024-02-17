@@ -65,6 +65,8 @@ node ./node_modules/badge-ui/install-package.js
     - Badge表示用モジュールを追加
 -  0.0.2
     - エラー問題を修正
+-  0.0.3
+    - modeに'blue'を追加
 
 <hr/>
 
@@ -76,7 +78,7 @@ node ./node_modules/badge-ui/install-package.js
 
 ## mode (必須)
 
-バッジの表示モードを指定します。デフォルトは `default` です。サポートされているモードは `default` `dark` `red` `green` `yellow` `indigo` `purple` `pink` です。
+バッジの表示モードを指定します。デフォルトは `default` です。サポートされているモードは `default` `dark` `blue` `red` `green` `yellow` `indigo` `purple` `pink` です。
 
 ## children (必須)
 
@@ -88,6 +90,7 @@ node ./node_modules/badge-ui/install-package.js
 ```tsx
 <Badge mode="default">デフォルト</Badge>
 <Badge mode="dark">ダーク</Badge>
+<Badge mode="blue">ブルー</Badge>
 <Badge mode="red">レッド</Badge>
 <Badge mode="green">グリーン</Badge>
 <Badge mode="yellow">イエロー</Badge>

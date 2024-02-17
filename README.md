@@ -65,6 +65,8 @@ node ./node_modules/badge-ui/install-package.js
     - Added module for displaying badges
 -  0.0.2
     - Fixed error issues
+-  0.0.3
+    - Added mode 'blue'
 
 <hr/>
 
@@ -76,7 +78,7 @@ node ./node_modules/badge-ui/install-package.js
 
 ## mode (required)
 
-Specify the display mode of the badge. The default is `default`. Supported modes are `default`, `dark`, `red`, `green`, `yellow`, `indigo`, `purple`, `pink`.
+Specify the display mode of the badge. The default is `default`. Supported modes are `default`, `dark`, `blue`, `red`, `green`, `yellow`, `indigo`, `purple`, `pink`.
 
 ## children (required)
 
@@ -87,6 +89,7 @@ Specify the text or elements to be displayed inside the badge.
 ```tsx
 <Badge mode="default">default</Badge>
 <Badge mode="dark">dark</Badge>
+<Badge mode="blue">blue</Badge>
 <Badge mode="red">red</Badge>
 <Badge mode="green">green</Badge>
 <Badge mode="yellow">yellow</Badge>
