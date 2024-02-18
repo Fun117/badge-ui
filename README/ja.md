@@ -121,7 +121,7 @@ node ./node_modules/badge-ui/install-package.js
 [npm-url]: https://www.npmjs.com/package/badge-ui
 [npm-version-image]: https://img.shields.io/npm/v/badge-ui.svg?style=flat
 [npm-url]: https://npmjs.org/package/badge-ui
-[npm-downloads-image]: https://img.shields.io/npm/dm/badge-ui.svg?style=flat
+[npm-downloads-image]: https://img.shields.io/npm/dt/badge-ui.svg?style=flat
 [npm-downloads-url]: https://npmcharts.com/compare/badge-ui?minimal=true
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: ../LICENSE.txt
